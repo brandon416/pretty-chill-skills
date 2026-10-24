@@ -1,0 +1,4 @@
+interface:
+  display_name: "CTO Advisor"
+  short_description: "Practical technology decisions for founder-led teams"
+  default_prompt: "Use $cto-advisor to recommend the simplest reliable solution for my current workflow."

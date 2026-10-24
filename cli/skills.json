@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-23T14:53:45+00:00",
+  "generated_at": "2026-10-24T22:45:30+00:00",
   "skill_count": 385,
   "domain_count": 21,
   "skills": [
@@ -4757,7 +4757,7 @@
     {
       "name": "change-management",
       "domain": "c-level-advisor",
-      "description": "Framework for rolling out organizational changes without chaos, using ADKAR adapted for startups. Use when announcing a reorg, switching tools, pivoting strategy, killing a product, or managing change resistance.",
+      "description": "Plan practical workflow, tool, team, and location transitions. Use for rollout plans, delegation, adoption problems, communication drafts, resistance, or change fatigue in founder-led businesses, Codex, and ChatGPT.",
       "tags": [
         "change-management",
         "adkar",
@@ -4765,29 +4765,32 @@
         "communication",
         "startups"
       ],
-      "version": "2.0.0",
-      "updated": "2026-03-09",
+      "version": "2.1.0",
+      "updated": "2026-10-24",
       "author": "borghei",
       "license": "MIT + Commons Clause",
       "category": "c-level",
       "subdomain": "",
       "path": "c-level-advisor/change-management",
       "files": [
+        "LICENSE",
         "SKILL.md",
+        "agents/openai.yaml",
+        "references/portable-workflow.md",
         "scripts/adoption_tracker.py",
         "scripts/change_readiness_assessor.py",
         "scripts/communication_planner.py"
       ],
-      "size_bytes": 52957,
+      "size_bytes": 48827,
       "tools_count": 3,
       "has_scripts": true,
-      "has_references": false,
+      "has_references": true,
       "has_assets": false
     },
     {
       "name": "chief-ai-officer-advisor",
       "domain": "c-level-advisor",
-      "description": "AI leadership advisor on AI strategy, governance, risk, investment, and org design. Use when defining an AI strategy, building an AI governance program, scoring AI maturity, or drafting an AI risk register.",
+      "description": "Act as a fractional AI leader for founder-led businesses. Use to prioritize automations, choose AI versus rules, evaluate agents, reduce tool sprawl, measure ROI, or plan reliable AI workflows in PPPT, Codex, and ChatGPT.",
       "tags": [
         "ai",
         "strategy",
@@ -4797,23 +4800,26 @@
         "org-design",
         "investment"
       ],
-      "version": "1.0.0",
-      "updated": "2026-05-27",
+      "version": "1.1.0",
+      "updated": "2026-10-24",
       "author": "borghei",
       "license": "MIT + Commons Clause",
       "category": "executive-leadership",
       "subdomain": "",
       "path": "c-level-advisor/chief-ai-officer-advisor",
       "files": [
+        "LICENSE",
         "SKILL.md",
+        "agents/openai.yaml",
         "references/ai-org-and-talent.md",
         "references/ai-risk-and-governance.md",
         "references/ai-strategy-framework.md",
+        "references/portable-workflow.md",
         "scripts/ai_investment_planner.py",
         "scripts/ai_maturity_assessor.py",
         "scripts/ai_risk_register_generator.py"
       ],
-      "size_bytes": 90452,
+      "size_bytes": 94458,
       "tools_count": 3,
       "has_scripts": true,
       "has_references": true,
@@ -5190,7 +5196,7 @@
     {
       "name": "cto-advisor",
       "domain": "c-level-advisor",
-      "description": "Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, or making architecture decisions.",
+      "description": "Act as a fractional CTO for founder-led businesses. Use for architecture, broken integrations, technical debt, build vs buy, stack simplification, deployment reliability, or technical hiring. Supports PPPT, Codex, and ChatGPT.",
       "tags": [
         "cto",
         "technical-debt",
@@ -5198,22 +5204,25 @@
         "engineering-teams",
         "technology-strategy"
       ],
-      "version": "1.0.0",
-      "updated": "2025-10-20",
+      "version": "1.1.0",
+      "updated": "2026-10-24",
       "author": "borghei",
       "license": "MIT + Commons Clause",
       "category": "c-level",
       "subdomain": "",
       "path": "c-level-advisor/cto-advisor",
       "files": [
+        "LICENSE",
         "SKILL.md",
+        "agents/openai.yaml",
         "references/architecture_decision_records.md",
         "references/engineering_metrics.md",
+        "references/portable-workflow.md",
         "references/technology_evaluation_framework.md",
         "scripts/team_scaling_calculator.py",
         "scripts/tech_debt_analyzer.py"
       ],
-      "size_bytes": 84737,
+      "size_bytes": 83907,
       "tools_count": 2,
       "has_scripts": true,
       "has_references": true,

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chief AI Officer Advisor"
+  short_description: "Choose AI workflows that recover time and prove value"
+  default_prompt: "Use $chief-ai-officer-advisor to choose and validate the next automation that reduces my workload."

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated": "2026-10-23T14:53:45+00:00",
+  "updated": "2026-10-24T22:45:30+00:00",
   "total_skills": 385,
   "skills": [
     {
@@ -2476,7 +2476,7 @@
     },
     {
       "name": "change-management",
-      "description": "Framework for rolling out organizational changes without chaos, using ADKAR adapted for startups. Use when announcing a reorg, switching tools, pivoting strategy, killing a product, or managing change resistance.",
+      "description": "Plan practical workflow, tool, team, and location transitions. Use for rollout plans, delegation, adoption problems, communication drafts, resistance, or change fatigue in founder-led businesses, Codex, and ChatGPT.",
       "domain": "c-level-advisor",
       "path": "c-level-advisor/change-management/SKILL.md",
       "tools": [
@@ -2494,7 +2494,7 @@
     },
     {
       "name": "chief-ai-officer-advisor",
-      "description": "AI leadership advisor on AI strategy, governance, risk, investment, and org design. Use when defining an AI strategy, building an AI governance program, scoring AI maturity, or drafting an AI risk register.",
+      "description": "Act as a fractional AI leader for founder-led businesses. Use to prioritize automations, choose AI versus rules, evaluate agents, reduce tool sprawl, measure ROI, or plan reliable AI workflows in PPPT, Codex, and ChatGPT.",
       "domain": "c-level-advisor",
       "path": "c-level-advisor/chief-ai-officer-advisor/SKILL.md",
       "tools": [
@@ -2731,7 +2731,7 @@
     },
     {
       "name": "cto-advisor",
-      "description": "Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Use when assessing technical debt, scaling engineering teams, evaluating technologies, or making architecture decisions.",
+      "description": "Act as a fractional CTO for founder-led businesses. Use for architecture, broken integrations, technical debt, build vs buy, stack simplification, deployment reliability, or technical hiring. Supports PPPT, Codex, and ChatGPT.",
       "domain": "c-level-advisor",
       "path": "c-level-advisor/cto-advisor/SKILL.md",
       "tools": [
