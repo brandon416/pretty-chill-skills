@@ -1,0 +1,4 @@
+interface:
+  display_name: "Change Management"
+  short_description: "Roll out changes with less founder coordination"
+  default_prompt: "Use $change-management to turn this transition into a small rollout with owners and proof of adoption."
